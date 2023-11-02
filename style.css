@@ -1,0 +1,281 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+.bg-img {
+    background-image: linear-gradient(to bottom right, #000719,40%,#03f3ff );
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    position: absolute;
+    background-size: 1650px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-text {
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#site, #submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0;
+    font-size: large;
+    border: #fff 1px solid;
+    padding: 5px;
+}
+
+
+
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    transition: 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    background-color: rgb(0 0 0 / 58%);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    border-radius: 10px;
+}
+
+  
+  .footer {
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  button,button::after {
+  padding: 10px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  position: relative;
+}
+
+button::after {
+  --move1: inset(50% 50% 50% 50%);
+  --move2: inset(31% 0 40% 0);
+  --move3: inset(39% 0 15% 0);
+  --move4: inset(45% 0 40% 0);
+  --move5: inset(45% 0 6% 0);
+  --move6: inset(14% 0 61% 0);
+  clip-path: var(--move1);
+  content: 'GLITCH';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+button:hover::after {
+  animation: glitch_4011 1s;
+  text-shadow: 10 10px 10px black;
+  animation-timing-function: steps(2, end);
+  text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+  background-color: transparent;
+  border: 3px solid rgb(0, 255, 213);
+}
+
+button:hover {
+  text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(0, 255, 213);
+  box-shadow: 0px 10px 10px -10px rgb(255 255 255);
+}
+
+@keyframes glitch_4011 {
+  0% {
+    clip-path: var(--move1);
+    transform: translate(0px,-10px);
+  }
+
+  10% {
+    clip-path: var(--move2);
+    transform: translate(-10px,10px);
+  }
+
+  20% {
+    clip-path: var(--move3);
+    transform: translate(10px,0px);
+  }
+
+  30% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  40% {
+    clip-path: var(--move5);
+    transform: translate(10px,-10px);
+  }
+
+  50% {
+    clip-path: var(--move6);
+    transform: translate(-10px,10px);
+  }
+
+  60% {
+    clip-path: var(--move1);
+    transform: translate(10px,-10px);
+  }
+
+  70% {
+    clip-path: var(--move3);
+    transform: translate(-10px,10px);
+  }
+
+  80% {
+    clip-path: var(--move2);
+    transform: translate(10px,-10px);
+  }
+
+  90% {
+    clip-path: var(--move4);
+    transform: translate(-10px,10px);
+  }
+
+  100% {
+    clip-path: var(--move1);
+    transform: translate(0);
+  }
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 5px;
+  border-radius: 20px;
+}
+
+.input-container .bash-text {
+  font-size: .8rem;
+  color: white;
+}
+
+.input-container .bash-text .user {
+  color: #E879F9;
+}
+
+.input-container .bash-text .vm {
+  color: #2DD4BF;
+}
+
+.input-container .bash-text .char {
+  color: #A78BFA;
+}
+
+.input-container input[type=text].input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 5px;
+  border-radius: 20px;
+}
+
+.input-container .bash-text {
+  font-size: .8rem;
+  color: white;
+}
+
+.input-container .bash-text .user {
+  color: #E879F9;
+}
+
+.input-container .bash-text .vm {
+  color: #2DD4BF;
+}
+
+.input-container .bash-text .char {
+  color: #A78BFA;
+}
+
+.input-container input[type=text].input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+    .input-container {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 5px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('path/to/fira-code.woff2') format('woff2'),
+         url('path/to/fira-code.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.input-container input[type="text"] {
+    font-family: 'Fira Code', monospace;
+}
+
+.logo{
+  width:100px;
+  margin-top: -70px;
+}
