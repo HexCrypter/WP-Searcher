@@ -10,9 +10,6 @@
       <img src="https://github.com/HexCrypter/HexCrypter/assets/149661104/7eef42d4-cd50-4bf3-bc12-15dd0c349f0d" alt="Telegram HexCrypter" width="75px">
     </a>
     <a href="https://">
-      <img src="https://github.com/HexCrypter/HexCrypter/assets/149661104/f6e1bc14-b525-4998-b365-2468842ea507" alt="Instagram HexCrypter" width="75px">
-    </a>
-    <a href="https://">
       <img src="https://github.com/HexCrypter/HexCrypter/assets/149661104/dbdfa08e-e3c3-4d60-bd04-4532e1f3f8d9" alt="WebSite HexCrypter" width="75px">
     </a>
     <a href="https://">
