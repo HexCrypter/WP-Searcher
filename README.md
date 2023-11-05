@@ -30,3 +30,8 @@
   ❌ <b>Note:</b>
       that this tool is not supported and you can enter my YouTube channel and ask your question under the tool video.
 </pre>
+
+<h3>📷 A photo of the user interface</h3>
+<div align="center">
+  <img src="https://github.com/HexCrypter/Web-Proxy/assets/149661104/4da9975e-5966-43db-8c6a-95440049636b" alt="WP-Searcher Dev: HexCrypter" width="700">
+</div>
