@@ -1,0 +1,25 @@
+{
+    "youtube": {
+      "username": "HexCrypter",
+      "img": "https://api.soltanmsb.xyz/github/img/Youtube.png" 
+    },
+    "telegram": {
+      "username": "HexCrypter",
+      "img": "https://api.soltanmsb.xyz/github/img/tel.png"
+    },
+    "instagram": {
+      "username": "HexCrypter",
+      "img": "https://api.soltanmsb.xyz/github/img/instagram.png"
+    },
+    "website": {
+      "username": "HexCrypter",
+      "img": "https://api.soltanmsb.xyz/github/img/web.png"
+    },
+    "github": {
+      "username": "HexCrypter"
+    },
+    "logo": {
+        "username": "HexCrypter",
+        "img": "https://api.soltanmsb.xyz/github/img/logo.png"
+    }
+  }
