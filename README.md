@@ -20,3 +20,13 @@
     <img src="https://github.com/HexCrypter/Web-Proxy/assets/149661104/b65df887-ca20-4430-a5fe-c43f99fbd99b" alt="WP-Searcher Dev: HexCrypter" width="700">
   </div>
 </div>
+<h3>Description:</h3>
+<pre>
+  📂 Language -> PHP
+  📄 Minimum version of PHP -> 5.4.7 < 8.2
+  💠 Tool version -> 1.0
+  💪 Very powerful tool and optimized codes
+  ⚡ Quick and easy implementation
+  ❌ <b>Note:</b>
+      that this tool is not supported and you can enter my YouTube channel and ask your question under the tool video.
+</pre>
