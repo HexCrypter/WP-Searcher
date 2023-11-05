@@ -25,13 +25,17 @@
   📂 Language -> PHP
   📄 Minimum version of PHP -> 5.4.7 < 8.2
   💠 Tool version -> 1.0
+  🗝️ A tool to bypass filtering and hide your IP
   💪 Very powerful tool and optimized codes
   ⚡ Quick and easy implementation
   ❌ <b>Note:</b>
       that this tool is not supported and you can enter my YouTube channel and ask your question under the tool video.
+      Do not use servers or hosts of filter countries in any way
 </pre>
 
 <h3>📷 A photo of the user interface</h3>
 <div align="center">
   <img src="https://github.com/HexCrypter/Web-Proxy/assets/149661104/4da9975e-5966-43db-8c6a-95440049636b" alt="WP-Searcher Dev: HexCrypter" width="700">
-</div>
+</div><br><br>
+<h4>Dedicated to the people of<br>#Iran, #Myanmar, #China, #Cuba, #Egypt, #Belarus, #North_Korea, #Saudi_Arabia, #Syria, #Tunisia, #Turkmenistan, #Uzbekistan, #Vietnam</h4>
+<h4 align="center">⌜ Coded with love ☕❤ ⌟</h4>
