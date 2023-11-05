@@ -7,6 +7,24 @@ $anonymize = true;
 $startURL = "";
 $landingExampleURL = "https://github.com/HexCrypter";
 
+$url = "https://api.soltanmsb.xyz/github/data.json"; # The address of the data.json file
+$json_data = file_get_contents($url);
+$data = json_decode($json_data, true);
+
+$telegram = $data['telegram']['username'];
+$telegram_path = $data['telegram']['img'];
+
+$instagram = $data['instagram']['username'];
+$instagram_path = $data['instagram']['img'];
+
+$youtube = $data['youtube']['username'];
+$youtube_path = $data['youtube']['img'];
+
+$logo = $data['logo']['img'];
+$brand = $data['logo']['username'];
+
+$github = ['github']['username'];
+
 ob_start("ob_gzhandler");
 
 if (version_compare(PHP_VERSION, "5.4.7", "<")) {
@@ -264,36 +282,36 @@ if (empty($url)) {
     <meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <link rel=\"stylesheet\" href=\"style.css\">
-    <link rel=\"icon\" href=\"img/logo.png\">
+    <link rel=\"icon\" href=\"$logo\">
     <title>Web Privat</title>
 </head>
 <body>
     <div class=\"bg-img\"></div>
     
     <div class=\"bg-text\">
-    <img src=\"img/logo.png\" class=\"logo\" alt=\"Your Image\">
+    <img src=\"$logo\" class=\"logo\" alt=\"Logo\">
         <h1>Search anonymus</h1><br>
         <form onsubmit=\"handleSearch(event)\" autocomplete=\"off\">
             <div class=\"form-control\">
                 <div class=\"input-container\">
                     <p class=\"bash-text\">
-                        <span class=\"user\">root</span><span class=\"vm\">@HexCrypter</span>:<span class=\"char\">~</span>$
+                        <span class=\"user\">root</span><span class=\"vm\">@$brand</span>:<span class=\"char\">~</span>$
                     </p>
                     <input class=\"input\" id=\"site\" type=\"text\" placeholder=\"https://example.com\">
                 </div>
                 <button id=\"submit\" type=\"submit\">Search</button><br><br>
-                <a href=\"index.php?https://instagram.com/imHexCrypter\">
-                    <img class=\"icon\" src=\"img/instagram.png\" alt=\"Instagram imHexCrypter\">
+                <a href=\"index.php?https://instagram.com/$instagram\">
+                    <img class=\"icon\" src=\"$instagram_path\" alt=\"Instagram $brand\">
                 </a>
-                <a href=\"index.php?https://t.me/BitXplore\">
-                    <img class=\"icon\" src=\"img/tel.png\" alt=\"Telegram imHexCrypter\">
+                <a href=\"index.php?https://t.me/$telegram\">
+                    <img class=\"icon\" src=\"$telegram_path\" alt=\"Telegram $brand\">
                 </a>
-                <a href=\"index.php?https://youtube.com/c/imHexCrypter\">
-                    <img class=\"icon\" src=\"img/Youtube.png\" alt=\"Youtube imHexCrypter\">
+                <a href=\"index.php?https://youtube.com/c/$youtube\">
+                    <img class=\"icon\" src=\"$youtube_path\" alt=\"Youtube $brand\">
                 </a>
             </div>
         </form>
-        <a href=\"https://github.com/imHexCrypter\"></a>
+        <a href=\"https://github.com/$github\"></a>
     </div>
 
     <script>
